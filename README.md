@@ -1,41 +1,42 @@
-# Stealth - Automatizador de Teclas
+# Stealth - Key Automator
 
-Aplicativo em Python que automatiza o pressionamento da tecla LSHIFT a cada 5 segundos.
+Python application that automates the pressing of the LSHIFT key every 5 seconds.
 
 ## Funcionalidades
 
-- **Botão Ativar**: Inicia a automação da tecla LSHIFT (pressionada a cada 5 segundos)
-- **Botão Desativar**: Para a automação
-- Interface gráfica simples e intuitiva
-- Status em tempo real da automação
+- Activate Button: Starts the LSHIFT key automation (pressed every 5 seconds)
+- Deactivate Button: Stops the automation
+- Simple and intuitive graphical interface
+- Real-time automation status
 
 ## Instalação
 
-1. Certifique-se de ter o Python 3.6+ instalado
-2. Instale as dependências:
+1. Make sure you have Python 3.6+ installed
+2. Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Como usar
+## How to use
 
-1. Execute o aplicativo:
+1. Run the application:
 ```bash
 python stealth_app.py
 ```
 
-2. Clique em "Ativar" para iniciar a automação
-3. Clique em "Desativar" para parar a automação
-4. Feche a janela para encerrar o aplicativo
+2. Click "Activate" to start the automation
+3. Click "Deactivate" to stop the automation
+4. Close the window to exit the application
 
-## Dependências
+## Dependencies
 
-- `pynput`: Para automatização do teclado
-- `tkinter`: Para interface gráfica (já incluído no Python)
+- `pynput`: For keyboard automation
+- `tkinter`: For graphical interface (already included in Python)
 
-## Observações
+## Notes
 
-- O aplicativo executa a automação em uma thread separada para não travar a interface
-- A tecla LSHIFT é pressionada por 100ms a cada 5 segundos quando ativo
-- É possível fechar o aplicativo com segurança a qualquer momento
+- The application runs the automation in a separate thread to avoid freezing the interface
+- The LSHIFT key is pressed for 100ms every 5 seconds when active
+- You can safely close the application at any time
+
 
