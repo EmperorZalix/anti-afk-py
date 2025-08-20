@@ -1,6 +1,6 @@
-# Stealth - Key Automator
+# Anti-AFK Gaming Script - Key Automator
 
-Python application that automates the pressing of the LSHIFT key every 5 seconds.
+Python application that automates the pressing of the LSHIFT key every 5 seconds. Works in any game!
 
 ## Funcionalidades
 
@@ -38,5 +38,6 @@ python stealth_app.py
 - The application runs the automation in a separate thread to avoid freezing the interface
 - The LSHIFT key is pressed for 100ms every 5 seconds when active
 - You can safely close the application at any time
+
 
 
